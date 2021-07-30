@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="none">
+    <!--<test name="FirefoxTest">
+        <parameter name="browserType" value="firefox" />
+        <classes>
+            <class name="ImportFAQsTest" />
+        </classes>
+    </test>-->
+    <test name="ChromeTest">
+        <parameter name="browserType" value= "chrome" />
+        <classes>
+            <class name="ImportFAQsTest" />
+        </classes>
+    </test>
+   <!--<test name="SafariTest">
+        <parameter name="browserType" value = "safari" />
+        <classes>
+            <class name="ImportFAQsTest" />
+        </classes>
+    </test>-->
+</suite>
